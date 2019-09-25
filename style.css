@@ -1,0 +1,20 @@
+#about{
+    position: absolute;
+    left: 40%;
+    right: 60%;
+}
+#image{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+    height: 50%;
+}
+#aboutMecontent {
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    left: 13%;
+    top: 70%;
+    text-align: justify;
+}
