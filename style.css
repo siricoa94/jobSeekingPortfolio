@@ -36,8 +36,8 @@
 }
 #sidebarTitle {
     font-size: 100%;
-    width: 80%;
-    padding-left: 10%;
+    width: 85%;
+    padding-left: 15%;
 }
 
 #projectContainer{
@@ -70,7 +70,19 @@
 }
 #titlescreenshotOne{
     border-bottom: solid 4px white;
-    width: 15%;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
+}
+#teamTitle{
+    position: absolute;
+    border-bottom: solid 4px white;
+    width: 100%;
+    top: 50%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
 }
 #collectorText{
     position: absolute;
@@ -116,14 +128,34 @@
     width: 90%;
     left: 5%;
     height: 6%;
-    top: 31%;
+    top: 31.5%;
 }
 #burgerText{
     position: absolute;
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 37%;
+    top: 37.5%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
+
+}
+#dragonApp {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 6%;
+    top: 40.5%;
+
+}
+
+#dragonText {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-size: 150%;
+    top: 46.5%;
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
