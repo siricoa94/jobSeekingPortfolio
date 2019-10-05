@@ -23,16 +23,15 @@
 #nav{
     background-color: lightskyblue !important;
 }
-
 #portfolioContainer{
     position: fixed;
-    top: 15%;
+    top: 9%;
     width: 15%;
-    height: 60%;
+    height: 70%;
     background-color: lightskyblue;
     text-align: center;
     color: white;
-
+    border-radius: 1rem;
 }
 #sidebarTitle {
     font-size: 100%;
@@ -42,16 +41,18 @@
 
 #projectContainer{
     position: absolute;
-    width: 81%;
+    width: 82%;
     left: 18%;
     height: 1000vh;
-    background-color: lightgrey;
+    background-color: silver;
+    border-radius: 1rem;
 }
 #projectTitle {
     color: white;
     background-color: lightskyblue;
     border-top: white 8px solid;
     border-bottom: white 8px solid;
+    
 }
 /* Screenshots */
 #hominidScreenshot{
@@ -69,7 +70,7 @@
     top: 3.5%;
 }
 #titlescreenshotOne{
-    border-bottom: solid 4px white;
+    padding-bottom: 2%;
     width: 100%;
     background-color: lightskyblue;
     color: white;
@@ -77,7 +78,7 @@
 }
 #teamTitle{
     position: absolute;
-    border-bottom: solid 4px white;
+    padding-bottom: 2%;
     width: 100%;
     top: 50%;
     background-color: lightskyblue;
@@ -160,4 +161,39 @@
     color: white;
     padding-left: 2.5%;
 
+}
+#movieApp{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 6%;
+    top: 51.5%;
+}
+#movieText{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-size: 150%;
+    top: 57.5%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
+}
+#knodeApp{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 6%;
+    top: 60.5%;
+
+}
+#knodeText{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-size: 150%;
+    top: 66.5%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
 }
