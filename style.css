@@ -47,3 +47,10 @@
     height: 100%;
     background-color: lightgrey;
 }
+#projectTitle {
+    color: white;
+    background-color: lightskyblue;
+    border-top: white 8px solid;
+    border-bottom: white 8px solid;
+}
+/* Screenshots */
