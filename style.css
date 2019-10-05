@@ -56,10 +56,10 @@
 /* Screenshots */
 #hominidScreenshot{
     position: absolute;
-    width: 95%;
-    left: 2.5%;
-    height: 5%;
-    top: 10.5%;
+    width: 90%;
+    left: 5%;
+    height: 6%;
+    top: 12.5%;
 }
 #crystalCollector{
     position: absolute;
@@ -74,16 +74,58 @@
 }
 #collectorText{
     position: absolute;
-    width: 95%;
-    left: 2.5%;
+    width: 90%;
+    left: 5%;
     font-size: 150%;
-    top: 8.5%;
+    top: 9.5%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
 }
 #quizText{
     position: absolute;
-    width: 95%;
-    left: 2.5%;
+    width: 90%;
+    left: 5%;
     font-size: 150%;
-    top: 15.5%
+    top: 18.5%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
+}
+#resturantRater {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 6%;
+    top: 22%;
+
+}
+#resturantText {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-size: 150%;
+    top: 28%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
+
+}
+#burgerApp{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 6%;
+    top: 31%;
+}
+#burgerText{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-size: 150%;
+    top: 37%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
 
 }
