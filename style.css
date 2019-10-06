@@ -1,3 +1,4 @@
+
 #image{
     position: absolute;
     width: 20%;
@@ -130,7 +131,7 @@
     width: 90%;
     left: 5%;
     height: 8%;
-    top: 45.65%;
+    top: 45%;
     border-radius: 1rem;
 }
 #burgerText{
@@ -150,7 +151,7 @@
     width: 90%;
     left: 5%;
     height: 8%;
-    top: 58%;
+    top: 57.5%;
     border-radius: 1rem;
 
 }
@@ -159,7 +160,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 55.5%;
+    top: 55%;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -170,7 +171,7 @@
     position: absolute;
     padding-bottom: 2%;
     width: 100%;
-    top: 69%;
+    top: 67%;
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
@@ -181,7 +182,7 @@
     width: 90%;
     left: 5%;
     height: 8%;
-    top: 75.2%;
+    top: 73.2%;
     border-radius: 1rem;
 }
 #movieText{
@@ -189,7 +190,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 72%;
+    top: 70%;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -200,7 +201,7 @@
     width: 90%;
     left: 5%;
     height: 8%;
-    top: 88%;
+    top: 86%;
     border-radius: 1rem;
 
 }
@@ -209,7 +210,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 85.5%;
+    top: 83.5%;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
