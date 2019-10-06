@@ -25,7 +25,7 @@
 }
 #portfolioContainer{
     position: fixed;
-    top: 9%;
+    top: 15%;
     width: 15%;
     height: 70%;
     background-color: lightskyblue;
@@ -57,45 +57,6 @@
     
 }
 /* Screenshots */
-#hominidScreenshot{
-    position: absolute;
-    width: 90%;
-    left: 5%;
-    height: 8%;
-    top: 24%;
-    border-radius: 1rem;
-}
-#quizText{
-    position: absolute;
-    width: 90%;
-    left: 5%;
-    font-size: 150%;
-    top: 21%;
-    background-color: lightskyblue;
-    color: white;
-    padding: 1%;
-    border-radius: 1rem;
-}
-#crystalCollector{
-    position: absolute;
-    width: 90%;
-    left: 5%;
-    height: 8%;
-    top: 9%;
-    border-radius: 1rem;
-    
-}
-#collectorText{
-    position: absolute;
-    width: 90%;
-    left: 5%;
-    font-size: 150%;
-    top: 6%;
-    background-color: lightskyblue;
-    color: white;
-    padding: 1%;
-    border-radius: 1rem;
-}
 #titlescreenshotOne{
     padding-bottom: 2%;
     width: 100%;
@@ -104,14 +65,43 @@
     padding-left: 2.5%;
     border-radius: 1rem;
 }
-#teamTitle{
+#crystalCollector{
     position: absolute;
-    padding-bottom: 2%;
-    width: 100%;
-    top: 82%;
+    width: 90%;
+    left: 5%;
+    height: 8%;
+    top: 7.5%;
+    border-radius: 1rem;
+    
+}
+#collectorText{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-size: 150%;
+    top: 5%;
     background-color: lightskyblue;
     color: white;
-    padding-left: 2.5%;
+    padding: 1%;
+    border-radius: 1rem;
+}
+#hominidScreenshot{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 8%;
+    top: 20%;
+    border-radius: 1rem;
+}
+#quizText{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-size: 150%;
+    top: 17.5%;
+    background-color: lightskyblue;
+    color: white;
+    padding: 1%;
     border-radius: 1rem;
 }
 #resturantRater {
@@ -119,7 +109,7 @@
     width: 90%;
     left: 5%;
     height: 8%;
-    top: 39%;
+    top: 32.5%;
     border-radius: 1rem;
 
 }
@@ -128,7 +118,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 36%;
+    top: 30%;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -140,7 +130,7 @@
     width: 90%;
     left: 5%;
     height: 8%;
-    top: 54.7%;
+    top: 45.65%;
     border-radius: 1rem;
 }
 #burgerText{
@@ -148,7 +138,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 51%;
+    top: 42.5%;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -160,36 +150,46 @@
     width: 90%;
     left: 5%;
     height: 8%;
-    top: 70%;
+    top: 58%;
     border-radius: 1rem;
 
 }
-
 #dragonText {
     position: absolute;
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 67%;
+    top: 55.5%;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
     border-radius: 1rem;
 
 }
+#teamTitle{
+    position: absolute;
+    padding-bottom: 2%;
+    width: 100%;
+    top: 69%;
+    background-color: lightskyblue;
+    color: white;
+    padding-left: 2.5%;
+    border-radius: 1rem;
+}
 #movieApp{
     position: absolute;
     width: 90%;
     left: 5%;
     height: 8%;
-    top: 90%;
+    top: 75.2%;
+    border-radius: 1rem;
 }
 #movieText{
     position: absolute;
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 84.7%;
+    top: 72%;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -200,7 +200,8 @@
     width: 90%;
     left: 5%;
     height: 8%;
-    top: 90%;
+    top: 88%;
+    border-radius: 1rem;
 
 }
 #knodeText{
@@ -208,8 +209,9 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 90%;
+    top: 85.5%;
     background-color: lightskyblue;
     color: white;
-    padding-left: 2.5%;
+    padding: 1%;
+    border-radius: 1rem;
 }
