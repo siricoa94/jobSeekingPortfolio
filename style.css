@@ -43,7 +43,7 @@
     position: absolute;
     width: 81%;
     left: 17%;
-    height: 500vh;
+    height: 800vh;
     background-color: white;
     border-radius: 1rem;
 }
@@ -61,18 +61,40 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 10%;
-    top: 27.5%;
+    height: 8%;
+    top: 24%;
+    border-radius: 1rem;
+}
+#quizText{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-size: 150%;
+    top: 21%;
+    background-color: lightskyblue;
+    color: white;
+    padding: 1%;
     border-radius: 1rem;
 }
 #crystalCollector{
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 10%;
-    top: 11.5%;
+    height: 8%;
+    top: 9%;
     border-radius: 1rem;
     
+}
+#collectorText{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    font-size: 150%;
+    top: 6%;
+    background-color: lightskyblue;
+    color: white;
+    padding: 1%;
+    border-radius: 1rem;
 }
 #titlescreenshotOne{
     padding-bottom: 2%;
@@ -86,28 +108,7 @@
     position: absolute;
     padding-bottom: 2%;
     width: 100%;
-    top: 50%;
-    background-color: lightskyblue;
-    color: white;
-    padding-left: 2.5%;
-}
-#collectorText{
-    position: absolute;
-    width: 90%;
-    left: 5%;
-    font-size: 150%;
-    top: 8%;
-    background-color: lightskyblue;
-    color: white;
-    padding-left: 2.5%;
-    border-radius: 1rem;
-}
-#quizText{
-    position: absolute;
-    width: 90%;
-    left: 5%;
-    font-size: 150%;
-    top: 24%;
+    top: 82%;
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
@@ -117,8 +118,8 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 10%;
-    top: 43.5%;
+    height: 8%;
+    top: 39%;
     border-radius: 1rem;
 
 }
@@ -127,10 +128,10 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 40%;
+    top: 36%;
     background-color: lightskyblue;
     color: white;
-    padding-left: 2.5%;
+    padding: 1%;
     border-radius: 1rem;
 
 }
@@ -138,26 +139,29 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 6%;
-    top: 80%;
+    height: 8%;
+    top: 54.7%;
+    border-radius: 1rem;
 }
 #burgerText{
     position: absolute;
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 80%;
+    top: 51%;
     background-color: lightskyblue;
     color: white;
-    padding-left: 2.5%;
+    padding: 1%;
+    border-radius: 1rem;
 
 }
 #dragonApp {
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 6%;
-    top: 80%;
+    height: 8%;
+    top: 70%;
+    border-radius: 1rem;
 
 }
 
@@ -166,35 +170,37 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 46.5%;
+    top: 67%;
     background-color: lightskyblue;
     color: white;
-    padding-left: 2.5%;
+    padding: 1%;
+    border-radius: 1rem;
 
 }
 #movieApp{
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 6%;
-    top: 51.5%;
+    height: 8%;
+    top: 90%;
 }
 #movieText{
     position: absolute;
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 57.5%;
+    top: 84.7%;
     background-color: lightskyblue;
     color: white;
-    padding-left: 2.5%;
+    padding: 1%;
+    border-radius: 1rem;
 }
 #knodeApp{
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 6%;
-    top: 60.5%;
+    height: 8%;
+    top: 90%;
 
 }
 #knodeText{
@@ -202,7 +208,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 66.5%;
+    top: 90%;
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
