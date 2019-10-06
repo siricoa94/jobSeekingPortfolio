@@ -43,8 +43,8 @@
     position: absolute;
     width: 81%;
     left: 17%;
-    height: 1000vh;
-    background-color: silver;
+    height: 500vh;
+    background-color: white;
     border-radius: 1rem;
 }
 #projectTitle {
@@ -52,6 +52,8 @@
     background-color: lightskyblue;
     border-top: white 8px solid;
     border-bottom: white 8px solid;
+    border-radius: 1rem;
+    padding: 1%;
     
 }
 /* Screenshots */
@@ -59,15 +61,18 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 6%;
-    top: 12.5%;
+    height: 10%;
+    top: 27.5%;
+    border-radius: 1rem;
 }
 #crystalCollector{
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 6%;
-    top: 3.5%;
+    height: 10%;
+    top: 11.5%;
+    border-radius: 1rem;
+    
 }
 #titlescreenshotOne{
     padding-bottom: 2%;
@@ -75,6 +80,7 @@
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
+    border-radius: 1rem;
 }
 #teamTitle{
     position: absolute;
@@ -90,27 +96,30 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 9.5%;
+    top: 8%;
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
+    border-radius: 1rem;
 }
 #quizText{
     position: absolute;
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 18.5%;
+    top: 24%;
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
+    border-radius: 1rem;
 }
 #resturantRater {
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 6%;
-    top: 22%;
+    height: 10%;
+    top: 43.5%;
+    border-radius: 1rem;
 
 }
 #resturantText {
@@ -118,10 +127,11 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 28%;
+    top: 40%;
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
+    border-radius: 1rem;
 
 }
 #burgerApp{
@@ -129,14 +139,14 @@
     width: 90%;
     left: 5%;
     height: 6%;
-    top: 31.5%;
+    top: 80%;
 }
 #burgerText{
     position: absolute;
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 37.5%;
+    top: 80%;
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
@@ -147,7 +157,7 @@
     width: 90%;
     left: 5%;
     height: 6%;
-    top: 40.5%;
+    top: 80%;
 
 }
 
