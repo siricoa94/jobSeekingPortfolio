@@ -219,3 +219,83 @@ footer{
     position: absolute;
     bottom: 0%;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #image{
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        left: 15%;
+        right: 15%;
+        top: 5%;
+    }
+    #aboutmeheader{
+        position: relative;
+        left: 15%;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #image{
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        left: 15%;
+        right: 15%;
+        top: 5%;
+    }
+    #aboutmeheader{
+        position: relative;
+        left: 35%;
+
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {    
+#image{
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    left: 20%;
+    right: 20%;
+    top: 5%;
+}
+#aboutmeheader{
+    position: relative;
+    left: 35%;
+
+}}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #image{
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        left: 10%;
+        right: 70%;
+        top: 5%;
+    }
+    #indexText {
+        position: absolute;
+        width: 80%;
+        height: 30%;
+        left: 10%;
+        top: 60%;
+        text-align: justify;
+        font-size-adjust: inherit;
+    }
+    #aboutmeheader{
+        position: relative;
+        left: 0%;
+    
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
