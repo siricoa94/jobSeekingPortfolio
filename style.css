@@ -1,11 +1,481 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #image{
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        left: 15%;
+        right: 15%;
+        top: 5%;
+    }
+    #aboutmeheader{
+        position: relative;
+        left: 15%;
+
+    }
+    #indexText {
+        position: absolute;
+        width: 80%;
+        height: 30%;
+        left: 10%;
+        top: 60%;
+        text-align: justify;
+        font-size-adjust: inherit;
+    }
+    #aboutContainer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    #nav{
+        background-color: lightskyblue !important;
+    }
+    #portfolioContainer{
+        position: fixed;
+        top: 15%;
+        width: 15%;
+        height: 70%;
+        background-color: lightskyblue;
+        text-align: center;
+        color: white;
+        border-radius: 1rem;
+    }
+    #sidebarTitle {
+        font-size: 100%;
+        width: 85%;
+        padding-left: 15%;
+    }
+    
+    #projectContainer{
+        position: absolute;
+        width: 81%;
+        left: 17%;
+        height: 800vh;
+        background-color: white;
+        border-radius: 1rem;
+    }
+    #projectTitle {
+        color: white;
+        background-color: lightskyblue;
+        border-top: white 8px solid;
+        border-bottom: white 8px solid;
+        border-radius: 1rem;
+        padding: 1%;
+        
+    }
+    /* Screenshots */
+    #titlescreenshotOne{
+        padding-bottom: 2%;
+        width: 100%;
+        background-color: lightskyblue;
+        color: white;
+        padding-left: 2.5%;
+        border-radius: 1rem;
+    }
+    #crystalCollector{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 7.5%;
+        border-radius: 1rem;
+        
+    }
+    #collectorText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #hominidScreenshot{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 20%;
+        border-radius: 1rem;
+    }
+    #quizText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 17.5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #resturantRater {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 32.5%;
+        border-radius: 1rem;
+    
+    }
+    #resturantText {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 30%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #burgerApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 45%;
+        border-radius: 1rem;
+    }
+    #burgerText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 42.5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #dragonApp {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 57.5%;
+        border-radius: 1rem;
+    
+    }
+    #dragonText {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 55%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #teamTitle{
+        position: absolute;
+        padding-bottom: 2%;
+        width: 100%;
+        top: 67%;
+        background-color: lightskyblue;
+        color: white;
+        padding-left: 2.5%;
+        border-radius: 1rem;
+    }
+    #movieApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 73.2%;
+        border-radius: 1rem;
+    }
+    #movieText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 70%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #knodeApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 86%;
+        border-radius: 1rem;
+    
+    }
+    #knodeText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 83.5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    footer{
+        position: absolute;
+        bottom: 0%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #image{
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        left: 15%;
+        right: 15%;
+        top: 5%;
+    }
+    #aboutmeheader{
+        position: relative;
+        left: 35%;
+
+    }
+    #indexText {
+        position: absolute;
+        width: 80%;
+        height: 30%;
+        left: 10%;
+        top: 60%;
+        text-align: justify;
+        font-size-adjust: inherit;
+    }
+    #aboutContainer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    #nav{
+        background-color: lightskyblue !important;
+    }
+    #portfolioContainer{
+        position: fixed;
+        top: 15%;
+        width: 15%;
+        height: 70%;
+        background-color: lightskyblue;
+        text-align: center;
+        color: white;
+        border-radius: 1rem;
+    }
+    #sidebarTitle {
+        font-size: 100%;
+        width: 85%;
+        padding-left: 15%;
+    }
+    
+    #projectContainer{
+        position: absolute;
+        width: 81%;
+        left: 17%;
+        height: 800vh;
+        background-color: white;
+        border-radius: 1rem;
+    }
+    #projectTitle {
+        color: white;
+        background-color: lightskyblue;
+        border-top: white 8px solid;
+        border-bottom: white 8px solid;
+        border-radius: 1rem;
+        padding: 1%;
+        
+    }
+    /* Screenshots */
+    #titlescreenshotOne{
+        padding-bottom: 2%;
+        width: 100%;
+        background-color: lightskyblue;
+        color: white;
+        padding-left: 2.5%;
+        border-radius: 1rem;
+    }
+    #crystalCollector{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 7.5%;
+        border-radius: 1rem;
+        
+    }
+    #collectorText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #hominidScreenshot{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 20%;
+        border-radius: 1rem;
+    }
+    #quizText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 17.5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #resturantRater {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 32.5%;
+        border-radius: 1rem;
+    
+    }
+    #resturantText {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 30%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #burgerApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 45%;
+        border-radius: 1rem;
+    }
+    #burgerText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 42.5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #dragonApp {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 57.5%;
+        border-radius: 1rem;
+    
+    }
+    #dragonText {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 55%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #teamTitle{
+        position: absolute;
+        padding-bottom: 2%;
+        width: 100%;
+        top: 67%;
+        background-color: lightskyblue;
+        color: white;
+        padding-left: 2.5%;
+        border-radius: 1rem;
+    }
+    #movieApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 73.2%;
+        border-radius: 1rem;
+    }
+    #movieText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 70%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #knodeApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 86%;
+        border-radius: 1rem;
+    
+    }
+    #knodeText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 83.5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    footer{
+        position: absolute;
+        bottom: 0%;
+    }
+    
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {    
 #image{
     position: absolute;
-    width: 20%;
+    width: 60%;
     height: 50%;
-    left: 10%;
-    right: 70%;
+    left: 20%;
+    right: 20%;
     top: 5%;
 }
+#aboutmeheader{
+    position: relative;
+    left: 35%;
+
+}}
 #indexText {
     position: absolute;
     width: 80%;
@@ -219,56 +689,6 @@ footer{
     position: absolute;
     bottom: 0%;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    #image{
-        position: absolute;
-        width: 70%;
-        height: 50%;
-        left: 15%;
-        right: 15%;
-        top: 5%;
-    }
-    #aboutmeheader{
-        position: relative;
-        left: 15%;
-
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    #image{
-        position: absolute;
-        width: 70%;
-        height: 50%;
-        left: 15%;
-        right: 15%;
-        top: 5%;
-    }
-    #aboutmeheader{
-        position: relative;
-        left: 35%;
-
-    }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {    
-#image{
-    position: absolute;
-    width: 60%;
-    height: 50%;
-    left: 20%;
-    right: 20%;
-    top: 5%;
-}
-#aboutmeheader{
-    position: relative;
-    left: 35%;
-
-}}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -280,6 +700,11 @@ footer{
         right: 70%;
         top: 5%;
     }
+    #aboutmeheader{
+        position: relative;
+        left: 0%;
+    
+    }
     #indexText {
         position: absolute;
         width: 80%;
@@ -289,10 +714,209 @@ footer{
         text-align: justify;
         font-size-adjust: inherit;
     }
-    #aboutmeheader{
-        position: relative;
-        left: 0%;
+    #aboutContainer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    #nav{
+        background-color: lightskyblue !important;
+    }
+    #portfolioContainer{
+        position: fixed;
+        top: 15%;
+        width: 15%;
+        height: 70%;
+        background-color: lightskyblue;
+        text-align: center;
+        color: white;
+        border-radius: 1rem;
+    }
+    #sidebarTitle {
+        font-size: 100%;
+        width: 85%;
+        padding-left: 15%;
+    }
     
+    #projectContainer{
+        position: absolute;
+        width: 81%;
+        left: 17%;
+        height: 800vh;
+        background-color: white;
+        border-radius: 1rem;
+    }
+    #projectTitle {
+        color: white;
+        background-color: lightskyblue;
+        border-top: white 8px solid;
+        border-bottom: white 8px solid;
+        border-radius: 1rem;
+        padding: 1%;
+        
+    }
+    /* Screenshots */
+    #titlescreenshotOne{
+        padding-bottom: 2%;
+        width: 100%;
+        background-color: lightskyblue;
+        color: white;
+        padding-left: 2.5%;
+        border-radius: 1rem;
+    }
+    #crystalCollector{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 7.5%;
+        border-radius: 1rem;
+        
+    }
+    #collectorText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #hominidScreenshot{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 20%;
+        border-radius: 1rem;
+    }
+    #quizText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 17.5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #resturantRater {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 32.5%;
+        border-radius: 1rem;
+    
+    }
+    #resturantText {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 30%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #burgerApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 45%;
+        border-radius: 1rem;
+    }
+    #burgerText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 42.5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #dragonApp {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 57.5%;
+        border-radius: 1rem;
+    
+    }
+    #dragonText {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 55%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #teamTitle{
+        position: absolute;
+        padding-bottom: 2%;
+        width: 100%;
+        top: 67%;
+        background-color: lightskyblue;
+        color: white;
+        padding-left: 2.5%;
+        border-radius: 1rem;
+    }
+    #movieApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 73.2%;
+        border-radius: 1rem;
+    }
+    #movieText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 70%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #knodeApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 8%;
+        top: 86%;
+        border-radius: 1rem;
+    
+    }
+    #knodeText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 83.5%;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    footer{
+        position: absolute;
+        bottom: 0%;
     }
 }
 
