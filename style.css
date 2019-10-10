@@ -112,7 +112,7 @@
         width: 100% !important;
         left: 0% !important;
         font-size: 150%;
-        top: 22% !important;
+        top: 23% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -132,7 +132,7 @@
         width: 100% !important;
         left: 0% !important;
         font-size: 150%;
-        top: 40% !important;
+        top: 35.5% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -149,10 +149,10 @@
     }
     #burgerText{
         position: absolute;
-        width: 90%;
-        left: 5%;
+        width: 100% !important;
+        left: 0% !important;
         font-size: 150%;
-        top: 42.5%;
+        top: 48% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -170,10 +170,10 @@
     }
     #dragonText {
         position: absolute;
-        width: 90%;
-        left: 5%;
+        width: 100% !important;
+        left: 0% !important;
         font-size: 150%;
-        top: 55%;
+        top: 64% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -184,7 +184,7 @@
         position: absolute;
         padding-bottom: 2%;
         width: 100%;
-        top: 67%;
+        top: 75.5% !important;
         background-color: lightskyblue;
         color: white;
         padding-left: 2.5%;
@@ -200,10 +200,10 @@
     }
     #movieText{
         position: absolute;
-        width: 90%;
-        left: 5%;
+        width: 100% !important;
+        left: 0% !important;
         font-size: 150%;
-        top: 70%;
+        top: 78% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -220,10 +220,10 @@
     }
     #knodeText{
         position: absolute;
-        width: 90%;
-        left: 5%;
+        width: 100% !important;
+        left: 0% !important;
         font-size: 150%;
-        top: 83.5%;
+        top: 96% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -287,7 +287,7 @@
         position: absolute;
         width: 81%;
         left: 17%;
-        height: 800vh;
+        height: 750vh !important;
         background-color: white;
         border-radius: 1rem;
     }
@@ -323,7 +323,7 @@
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 5%;
+        top: 5% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -342,7 +342,7 @@
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 17.5%;
+        top: 10% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -362,7 +362,7 @@
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 30%;
+        top: 15% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -382,7 +382,7 @@
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 42.5%;
+        top: 20% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
