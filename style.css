@@ -101,18 +101,18 @@
     }
     #hominidScreenshot{
         position: absolute;
-        width: 90%;
-        left: 5%;
-        height: 8%;
-        top: 30% !important;
+        width: 100% !important;
+        left: 0% !important;
+        height: 50% !important;
+        top: 100% !important;
         border-radius: 1rem;
     }
     #quizText{
         position: absolute;
-        width: 90%;
-        left: 5%;
+        width: 100% !important;
+        left: 0% !important;
         font-size: 150%;
-        top: 30% !important;
+        top: 22% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -120,19 +120,19 @@
     }
     #resturantRater {
         position: absolute;
-        width: 90%;
-        left: 5%;
-        height: 8%;
-        top: 32.5%;
+        width: 100% !important;
+        left: 0% !important;
+        height: 50% !important;
+        top: 100% !important;
         border-radius: 1rem;
     
     }
     #resturantText {
         position: absolute;
-        width: 90%;
-        left: 5%;
+        width: 100% !important;
+        left: 0% !important;
         font-size: 150%;
-        top: 30%;
+        top: 40% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -141,10 +141,10 @@
     }
     #burgerApp{
         position: absolute;
-        width: 90%;
-        left: 5%;
-        height: 8%;
-        top: 45%;
+        width: 100% !important;
+        left: 0% !important;
+        height: 50% !important;
+        top: 100% !important;
         border-radius: 1rem;
     }
     #burgerText{
@@ -161,10 +161,10 @@
     }
     #dragonApp {
         position: absolute;
-        width: 90%;
-        left: 5%;
-        height: 8%;
-        top: 57.5%;
+        width: 100% !important;
+        left: 0% !important;
+        height: 50% !important;
+        top: 100% !important;
         border-radius: 1rem;
     
     }
@@ -192,10 +192,10 @@
     }
     #movieApp{
         position: absolute;
-        width: 90%;
-        left: 5%;
-        height: 8%;
-        top: 73.2%;
+        width: 100% !important;
+        left: 0% !important;
+        height: 50% !important;
+        top: 100% !important;
         border-radius: 1rem;
     }
     #movieText{
@@ -211,10 +211,10 @@
     }
     #knodeApp{
         position: absolute;
-        width: 90%;
-        left: 5%;
-        height: 8%;
-        top: 86%;
+        width: 100% !important;
+        left: 0% !important;
+        height: 50% !important;
+        top: 100% !important;
         border-radius: 1rem;
     
     }
