@@ -545,8 +545,8 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 8%;
-    top: 7.5%;
+    height: 100%;
+    top: 100%;
     border-radius: 1rem;
     
 }
@@ -565,8 +565,8 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 8%;
-    top: 20%;
+    height: 100%;
+    top: 100%;
     border-radius: 1rem;
 }
 #quizText{
@@ -574,7 +574,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 17.5%;
+    top: 20% !important;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -584,8 +584,8 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 8%;
-    top: 32.5%;
+    height: 100%;
+    top: 100%;
     border-radius: 1rem;
 
 }
@@ -594,7 +594,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 30%;
+    top: 30% !important;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -605,8 +605,8 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 8%;
-    top: 45%;
+    height: 100%;
+    top: 100%;
     border-radius: 1rem;
 }
 #burgerText{
@@ -614,7 +614,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 42.5%;
+    top: 40% !important;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -625,8 +625,8 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 8%;
-    top: 57.5%;
+    height: 100%;
+    top: 100%;
     border-radius: 1rem;
 
 }
@@ -635,7 +635,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 55%;
+    top: 54% !important;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -646,7 +646,7 @@
     position: absolute;
     padding-bottom: 2%;
     width: 100%;
-    top: 67%;
+    top: 65% !important;
     background-color: lightskyblue;
     color: white;
     padding-left: 2.5%;
@@ -656,8 +656,8 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 8%;
-    top: 73.2%;
+    height: 100%;
+    top: 100%;
     border-radius: 1rem;
 }
 #movieText{
@@ -665,7 +665,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 70%;
+    top: 68% !important;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
@@ -675,8 +675,8 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 8%;
-    top: 86%;
+    height: 100%;
+    top: 100%;
     border-radius: 1rem;
 
 }
@@ -685,7 +685,7 @@
     width: 90%;
     left: 5%;
     font-size: 150%;
-    top: 83.5%;
+    top: 85% !important;
     background-color: lightskyblue;
     color: white;
     padding: 1%;
