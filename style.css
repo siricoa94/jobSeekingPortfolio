@@ -501,13 +501,14 @@
 }
 #portfolioContainer{
     position: fixed;
-    top: 15%;
+    top: 10%;
     width: 15%;
     height: 70%;
     background-color: lightskyblue;
     text-align: center;
     color: white;
     border-radius: 1rem;
+    z-index: -1;
 }
 #sidebarTitle {
     font-size: 100%;
@@ -730,7 +731,7 @@ footer{
     }
     #portfolioContainer{
         position: fixed;
-        top: 15%;
+        top: 10%;
         width: 15%;
         height: 70%;
         background-color: lightskyblue;
@@ -748,7 +749,7 @@ footer{
         position: absolute;
         width: 81%;
         left: 17%;
-        height: 800vh;
+        height: 600vh !important;
         background-color: white;
         border-radius: 1rem;
     }
@@ -774,8 +775,8 @@ footer{
         position: absolute;
         width: 90%;
         left: 5%;
-        height: 8%;
-        top: 7.5%;
+        height: 100%;
+        top: 100%;
         border-radius: 1rem;
         
     }
@@ -784,7 +785,7 @@ footer{
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 5%;
+        top: 5% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -794,8 +795,8 @@ footer{
         position: absolute;
         width: 90%;
         left: 5%;
-        height: 8%;
-        top: 20%;
+        height: 100%;
+        top: 100%;
         border-radius: 1rem;
     }
     #quizText{
@@ -803,7 +804,7 @@ footer{
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 17.5%;
+        top: 10% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -813,8 +814,8 @@ footer{
         position: absolute;
         width: 90%;
         left: 5%;
-        height: 8%;
-        top: 32.5%;
+        height: 100%;
+        top: 100%;
         border-radius: 1rem;
     
     }
@@ -823,7 +824,7 @@ footer{
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 30%;
+        top: 15% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -834,8 +835,8 @@ footer{
         position: absolute;
         width: 90%;
         left: 5%;
-        height: 8%;
-        top: 45%;
+        height: 100%;
+        top: 100%;
         border-radius: 1rem;
     }
     #burgerText{
@@ -843,7 +844,7 @@ footer{
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 42.5%;
+        top: 20% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -854,8 +855,8 @@ footer{
         position: absolute;
         width: 90%;
         left: 5%;
-        height: 8%;
-        top: 57.5%;
+        height: 100%;
+        top: 100%;
         border-radius: 1rem;
     
     }
@@ -864,7 +865,7 @@ footer{
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 55%;
+        top: 26% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -875,7 +876,7 @@ footer{
         position: absolute;
         padding-bottom: 2%;
         width: 100%;
-        top: 67%;
+        top: 32% !important;
         background-color: lightskyblue;
         color: white;
         padding-left: 2.5%;
@@ -885,8 +886,8 @@ footer{
         position: absolute;
         width: 90%;
         left: 5%;
-        height: 8%;
-        top: 73.2%;
+        height: 100%;
+        top: 100%;
         border-radius: 1rem;
     }
     #movieText{
@@ -894,7 +895,7 @@ footer{
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 70%;
+        top: 34% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -904,8 +905,8 @@ footer{
         position: absolute;
         width: 90%;
         left: 5%;
-        height: 8%;
-        top: 86%;
+        height: 100%;
+        top: 100%;
         border-radius: 1rem;
     
     }
@@ -914,7 +915,7 @@ footer{
         width: 90%;
         left: 5%;
         font-size: 150%;
-        top: 83.5%;
+        top: 41% !important;
         background-color: lightskyblue;
         color: white;
         padding: 1%;
@@ -928,4 +929,231 @@ footer{
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    #image{
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        left: 10%;
+        right: 70%;
+        top: 5%;
+    }
+    #aboutmeheader{
+        position: relative;
+        left: 0%;
+    
+    }
+    #indexText {
+        position: absolute;
+        width: 80%;
+        height: 30%;
+        left: 10%;
+        top: 60%;
+        text-align: justify;
+        font-size-adjust: inherit;
+    }
+    #aboutContainer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    #nav{
+        background-color: lightskyblue !important;
+    }
+    #portfolioContainer{
+        position: fixed;
+        top: 10%;
+        width: 15%;
+        height: 70%;
+        background-color: lightskyblue;
+        text-align: center;
+        color: white;
+        border-radius: 1rem;
+    }
+    #sidebarTitle {
+        font-size: 100%;
+        width: 85%;
+        padding-left: 15%;
+    }
+    
+    #projectContainer{
+        position: absolute;
+        width: 81%;
+        left: 17%;
+        height: 600vh !important;
+        background-color: white;
+        border-radius: 1rem;
+    }
+    #projectTitle {
+        color: white;
+        background-color: lightskyblue;
+        border-top: white 8px solid;
+        border-bottom: white 8px solid;
+        border-radius: 1rem;
+        padding: 1%;
+        
+    }
+    /* Screenshots */
+    #titlescreenshotOne{
+        padding-bottom: 2%;
+        width: 100%;
+        background-color: lightskyblue;
+        color: white;
+        padding-left: 2.5%;
+        border-radius: 1rem;
+    }
+    #crystalCollector{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 200% !important;
+        top: 100%;
+        border-radius: 1rem;
+        
+    }
+    #collectorText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 10% !important;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #hominidScreenshot{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 200% !important;
+        top: 100%;
+        border-radius: 1rem;
+    }
+    #quizText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 20% !important;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #resturantRater {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 200% !important;
+        top: 100%;
+        border-radius: 1rem;
+    
+    }
+    #resturantText {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 30% !important;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #burgerApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 200% !important;
+        top: 100%;
+        border-radius: 1rem;
+    }
+    #burgerText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 40% !important;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #dragonApp {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 200% !important;
+        top: 100%;
+        border-radius: 1rem;
+    
+    }
+    #dragonText {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 50% !important;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    
+    }
+    #teamTitle{
+        position: absolute;
+        padding-bottom: 2%;
+        width: 100%;
+        top: 60% !important;
+        background-color: lightskyblue;
+        color: white;
+        padding-left: 2.5%;
+        border-radius: 1rem;
+    }
+    #movieApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 200% !important;
+        top: 100%;
+        border-radius: 1rem;
+    }
+    #movieText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 64% !important;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    #knodeApp{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        height: 200% !important;
+        top: 100%;
+        border-radius: 1rem;
+    
+    }
+    #knodeText{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        font-size: 150%;
+        top: 78% !important;
+        background-color: lightskyblue;
+        color: white;
+        padding: 1%;
+        border-radius: 1rem;
+    }
+    footer{
+        position: absolute;
+        bottom: 0%;
+    }
+}
