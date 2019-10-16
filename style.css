@@ -66,6 +66,7 @@
         text-align: center;
         background-color: silver;
         border-radius: 1rem;
+        z-index: -1;
     }
     #projectContainer{
         top: 0% !important;
@@ -107,12 +108,12 @@
         text-align: center;
         background-color: silver;
         border-radius: 1rem;
+        z-index: -1;
     }
     #projectContainer{
         top: 0% !important;
         margin-left: 15%!important;
         text-align: center;
-        
         width: 80%;
     }
     .img{
