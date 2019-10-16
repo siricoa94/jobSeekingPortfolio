@@ -13,6 +13,17 @@
         width: 100% !important;
         margin-bottom: 10%;
     }
+    #image{
+        position: absolute;
+        width: 50%;
+        height: 50% !important;
+        left: 25%;
+        top: -50%;
+    }
+    #aboutContainer{
+        position: absolute;
+        top: 50%
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -29,6 +40,19 @@
     .img{
         width: 100% !important;
         margin-bottom: 10%;
+    }
+    #image{
+        position: absolute;
+        width: 50%;
+        height: 100% !important;
+        left: 0%;
+        top: -100%;
+    }
+    #aboutContainer{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        margin-right: 10%;
     }
 }
 
@@ -57,6 +81,19 @@
     #portfoliosidetitle{
         position: relative;
         font-size: 100%;
+    }
+    #image{
+        position: absolute;
+        width: 50%;
+        height: 100% !important;
+        left: 0%;
+        top: -100%;
+    }
+    #aboutContainer{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        margin-right: 10%;
     }
 }
 
@@ -89,9 +126,16 @@
     }
     #image{
         position: absolute;
-        width: 30%;
-        height: 50% !important;
-        left: 35%;
+        width: 40%;
+        height: 200% !important;
+        left: 0%;
+        top: -200%;
+    }
+    #aboutContainer{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        margin-right: 10%;
     }
 
 }
