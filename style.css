@@ -79,12 +79,19 @@
         width: 80%;
     }
     .img{
-        width: 100% !important;
+        width: 50% !important;
         margin-bottom: 10%;
+        margin-top: 5%;
     }
     #portfoliosidetitle{
         position: relative;
         font-size: 100%;
+    }
+    #image{
+        position: absolute;
+        width: 30%;
+        height: 50% !important;
+        left: 35%;
     }
 
 }
