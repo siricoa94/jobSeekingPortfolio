@@ -58,6 +58,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    #nav{
+        z-index: 2;
+    }
     #portfolioContainer {
         visibility: visible !important;
         position: fixed;
@@ -66,7 +69,7 @@
         text-align: center;
         background-color: silver;
         border-radius: 1rem;
-        z-index: -1;
+        z-index: 1;
     }
     #projectContainer{
         top: 0% !important;
@@ -100,6 +103,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    #nav{
+        z-index: 2;
+    }
     #portfolioContainer {
         visibility: visible !important;
         position: fixed;
@@ -108,7 +114,7 @@
         text-align: center;
         background-color: silver;
         border-radius: 1rem;
-        z-index: -1;
+        z-index: 1;
     }
     #projectContainer{
         top: 0% !important;
