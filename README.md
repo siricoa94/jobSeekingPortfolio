@@ -8,3 +8,5 @@ One problem I encountered early on was with the portfolioContainer in the portfo
 # Finishing Notes
 
 Future plans for this project are to change what is on display in the portfolio.html and possibly make the styling for the pages more robust.
+
+![Screenshot (9)](https://user-images.githubusercontent.com/50495407/68341872-60b96780-00b7-11ea-9c38-2db67f57051d.png)
